@@ -5,7 +5,10 @@ defineProps({
 </script>
 
 <template>
-  <transition-group tag="div" name="{{name}}">
+  <transition-group
+    tag="div"
+    :name="name"
+  >
     <slot />
   </transition-group>
 </template>

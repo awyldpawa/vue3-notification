@@ -26,10 +26,11 @@ const handleAfterLeave = () => {
   <transition-group
     tag="div"
     :css="false"
-    name="{{name}}"
+    :name="name"
     @on-enter="handleEnter"
     @on-leave="handleLeave"
-    @on-after-leave="handleAfterLeave">
+    @on-after-leave="handleAfterLeave"
+  >
     <slot />
   </transition-group>
 </template>
