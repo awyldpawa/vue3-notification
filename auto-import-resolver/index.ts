@@ -1,6 +1,6 @@
 import { name as packageName } from '../package.json';
 import type { ComponentResolverFunction } from 'unplugin-vue-components';
-import { COMPONENT_NAME } from '../src/constants';
+import { COMPONENT_NAME } from '@/constants';
 
 const autoImportResolver = (name = COMPONENT_NAME): ComponentResolverFunction => {
   return (componentName) => {

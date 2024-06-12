@@ -3,7 +3,7 @@ import type { ComponentResolverFunction } from 'unplugin-vue-components';
 import { COMPONENT_NAME } from './constants';
 
 const autoImportResolver = (name = COMPONENT_NAME): ComponentResolverFunction => {
-  return (componentName) => {
+  return (componentName: string) => {
     if (name === componentName) {
       return {
         from: packageName,
