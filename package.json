@@ -71,6 +71,7 @@
     "@vue/compiler-sfc": "^3.4.27",
     "@vue/server-renderer": "^3.4.27",
     "@vue/test-utils": "^2.4.6",
+    "@vue/eslint-config-typescript": "^13.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.26.0",
     "jsdom": "^24.1.0",
